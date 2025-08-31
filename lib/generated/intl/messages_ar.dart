@@ -22,6 +22,65 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-    "test": MessageLookupByLibrary.simpleMessage("الداتا متاحه "),
+    "authEmail": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
+    "authPassword": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
+    "boardingSubTitle": MessageLookupByLibrary.simpleMessage(
+      "تجربة تسوق مميزة لك",
+    ),
+    "boardingTitle": MessageLookupByLibrary.simpleMessage("شوب كرافت"),
+    "dialogTitle": MessageLookupByLibrary.simpleMessage("تم بنجاح!"),
+    "gialogBody": MessageLookupByLibrary.simpleMessage("تم إنشاء الحساب بنجاح"),
+    "gialogColse": MessageLookupByLibrary.simpleMessage("إغلاق"),
+    "hintConfirmPassword": MessageLookupByLibrary.simpleMessage(
+      "أعد إدخال كلمة المرور",
+    ),
+    "hintEmail": MessageLookupByLibrary.simpleMessage("أدخل بريدك الإلكتروني"),
+    "hintFullName": MessageLookupByLibrary.simpleMessage("أدخل اسمك الكامل"),
+    "hintPassword": MessageLookupByLibrary.simpleMessage("أدخل كلمة المرور"),
+    "homeFeaturedProduct": MessageLookupByLibrary.simpleMessage(
+      "المنتجات المميزة",
+    ),
+    "homeTitle": MessageLookupByLibrary.simpleMessage("منتجاتنا"),
+    "itemAdded": MessageLookupByLibrary.simpleMessage(
+      "تمت إضافة المنتج إلى السلة",
+    ),
+    "requiredConfirmPassword": MessageLookupByLibrary.simpleMessage(
+      "يرجى تأكيد كلمة المرور",
+    ),
+    "requiredEmail": MessageLookupByLibrary.simpleMessage(
+      "البريد الإلكتروني مطلوب",
+    ),
+    "requiredFullName": MessageLookupByLibrary.simpleMessage(
+      "الاسم الكامل مطلوب",
+    ),
+    "requiredPassword": MessageLookupByLibrary.simpleMessage(
+      "كلمة المرور مطلوبة",
+    ),
+    "signIn": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
+    "signInSubTitle": MessageLookupByLibrary.simpleMessage(
+      "سجل الدخول إلى شوب كرافت",
+    ),
+    "signInTitle": MessageLookupByLibrary.simpleMessage("مرحباً بعودتك"),
+    "signUp": MessageLookupByLibrary.simpleMessage("إنشاء حساب"),
+    "signUpConfirmPassword": MessageLookupByLibrary.simpleMessage(
+      "تأكيد كلمة المرور",
+    ),
+    "signUpFullName": MessageLookupByLibrary.simpleMessage("الاسم الكامل"),
+    "signUpSubTitle": MessageLookupByLibrary.simpleMessage(
+      "انضم إلى شوب كرافت الآن",
+    ),
+    "signUpTitle": MessageLookupByLibrary.simpleMessage("إنشاء حساب"),
+    "validateConfirmPassword": MessageLookupByLibrary.simpleMessage(
+      "كلمتا المرور غير متطابقتين",
+    ),
+    "validateEmail": MessageLookupByLibrary.simpleMessage(
+      "أدخل بريداً صالحاً يحتوي على @",
+    ),
+    "validateFullName": MessageLookupByLibrary.simpleMessage(
+      "يجب أن يبدأ الاسم بحرف كبير",
+    ),
+    "validatePassword": MessageLookupByLibrary.simpleMessage(
+      "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل",
+    ),
   };
 }

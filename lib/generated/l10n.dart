@@ -54,9 +54,264 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
-  /// `data is available`
-  String get test {
-    return Intl.message('data is available', name: 'test', desc: '', args: []);
+  /// `ShopCraft`
+  String get boardingTitle {
+    return Intl.message('ShopCraft', name: 'boardingTitle', desc: '', args: []);
+  }
+
+  /// `Your Premium Shopping Experience`
+  String get boardingSubTitle {
+    return Intl.message(
+      'Your Premium Shopping Experience',
+      name: 'boardingSubTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign Up`
+  String get signUp {
+    return Intl.message('Sign Up', name: 'signUp', desc: '', args: []);
+  }
+
+  /// `Sign In`
+  String get signIn {
+    return Intl.message('Sign In', name: 'signIn', desc: '', args: []);
+  }
+
+  /// `Create Account`
+  String get signUpTitle {
+    return Intl.message(
+      'Create Account',
+      name: 'signUpTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Join ShopCraft today`
+  String get signUpSubTitle {
+    return Intl.message(
+      'Join ShopCraft today',
+      name: 'signUpSubTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Full Name`
+  String get signUpFullName {
+    return Intl.message(
+      'Full Name',
+      name: 'signUpFullName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirm Password`
+  String get signUpConfirmPassword {
+    return Intl.message(
+      'Confirm Password',
+      name: 'signUpConfirmPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email`
+  String get authEmail {
+    return Intl.message('Email', name: 'authEmail', desc: '', args: []);
+  }
+
+  /// `Password`
+  String get authPassword {
+    return Intl.message('Password', name: 'authPassword', desc: '', args: []);
+  }
+
+  /// `Enter your email`
+  String get hintEmail {
+    return Intl.message(
+      'Enter your email',
+      name: 'hintEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your Password`
+  String get hintPassword {
+    return Intl.message(
+      'Enter your Password',
+      name: 'hintPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your full name`
+  String get hintFullName {
+    return Intl.message(
+      'Enter your full name',
+      name: 'hintFullName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirm your password`
+  String get hintConfirmPassword {
+    return Intl.message(
+      'Confirm your password',
+      name: 'hintConfirmPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email is required`
+  String get requiredEmail {
+    return Intl.message(
+      'Email is required',
+      name: 'requiredEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password is required`
+  String get requiredPassword {
+    return Intl.message(
+      'Password is required',
+      name: 'requiredPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Full Name is required`
+  String get requiredFullName {
+    return Intl.message(
+      'Full Name is required',
+      name: 'requiredFullName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please confirm your password`
+  String get requiredConfirmPassword {
+    return Intl.message(
+      'Please confirm your password',
+      name: 'requiredConfirmPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter a valid email contain @`
+  String get validateEmail {
+    return Intl.message(
+      'Enter a valid email contain @',
+      name: 'validateEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password must be at least 6 characters`
+  String get validatePassword {
+    return Intl.message(
+      'Password must be at least 6 characters',
+      name: 'validatePassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `First letter must be uppercase`
+  String get validateFullName {
+    return Intl.message(
+      'First letter must be uppercase',
+      name: 'validateFullName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Passwords do not match`
+  String get validateConfirmPassword {
+    return Intl.message(
+      'Passwords do not match',
+      name: 'validateConfirmPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Welcome Back`
+  String get signInTitle {
+    return Intl.message(
+      'Welcome Back',
+      name: 'signInTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign in to ShopCraft`
+  String get signInSubTitle {
+    return Intl.message(
+      'Sign in to ShopCraft',
+      name: 'signInSubTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Success!`
+  String get dialogTitle {
+    return Intl.message('Success!', name: 'dialogTitle', desc: '', args: []);
+  }
+
+  /// `Account created successfully`
+  String get gialogBody {
+    return Intl.message(
+      'Account created successfully',
+      name: 'gialogBody',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Close`
+  String get gialogColse {
+    return Intl.message('Close', name: 'gialogColse', desc: '', args: []);
+  }
+
+  /// `Our Products`
+  String get homeTitle {
+    return Intl.message('Our Products', name: 'homeTitle', desc: '', args: []);
+  }
+
+  /// `Featured Products`
+  String get homeFeaturedProduct {
+    return Intl.message(
+      'Featured Products',
+      name: 'homeFeaturedProduct',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Item added to the cart`
+  String get itemAdded {
+    return Intl.message(
+      'Item added to the cart',
+      name: 'itemAdded',
+      desc: '',
+      args: [],
+    );
   }
 }
 

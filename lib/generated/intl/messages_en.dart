@@ -22,6 +22,65 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-    "test": MessageLookupByLibrary.simpleMessage("data is available"),
+    "authEmail": MessageLookupByLibrary.simpleMessage("Email"),
+    "authPassword": MessageLookupByLibrary.simpleMessage("Password"),
+    "boardingSubTitle": MessageLookupByLibrary.simpleMessage(
+      "Your Premium Shopping Experience",
+    ),
+    "boardingTitle": MessageLookupByLibrary.simpleMessage("ShopCraft"),
+    "dialogTitle": MessageLookupByLibrary.simpleMessage("Success!"),
+    "gialogBody": MessageLookupByLibrary.simpleMessage(
+      "Account created successfully",
+    ),
+    "gialogColse": MessageLookupByLibrary.simpleMessage("Close"),
+    "hintConfirmPassword": MessageLookupByLibrary.simpleMessage(
+      "Confirm your password",
+    ),
+    "hintEmail": MessageLookupByLibrary.simpleMessage("Enter your email"),
+    "hintFullName": MessageLookupByLibrary.simpleMessage(
+      "Enter your full name",
+    ),
+    "hintPassword": MessageLookupByLibrary.simpleMessage("Enter your Password"),
+    "homeFeaturedProduct": MessageLookupByLibrary.simpleMessage(
+      "Featured Products",
+    ),
+    "homeTitle": MessageLookupByLibrary.simpleMessage("Our Products"),
+    "itemAdded": MessageLookupByLibrary.simpleMessage("Item added to the cart"),
+    "requiredConfirmPassword": MessageLookupByLibrary.simpleMessage(
+      "Please confirm your password",
+    ),
+    "requiredEmail": MessageLookupByLibrary.simpleMessage("Email is required"),
+    "requiredFullName": MessageLookupByLibrary.simpleMessage(
+      "Full Name is required",
+    ),
+    "requiredPassword": MessageLookupByLibrary.simpleMessage(
+      "Password is required",
+    ),
+    "signIn": MessageLookupByLibrary.simpleMessage("Sign In"),
+    "signInSubTitle": MessageLookupByLibrary.simpleMessage(
+      "Sign in to ShopCraft",
+    ),
+    "signInTitle": MessageLookupByLibrary.simpleMessage("Welcome Back"),
+    "signUp": MessageLookupByLibrary.simpleMessage("Sign Up"),
+    "signUpConfirmPassword": MessageLookupByLibrary.simpleMessage(
+      "Confirm Password",
+    ),
+    "signUpFullName": MessageLookupByLibrary.simpleMessage("Full Name"),
+    "signUpSubTitle": MessageLookupByLibrary.simpleMessage(
+      "Join ShopCraft today",
+    ),
+    "signUpTitle": MessageLookupByLibrary.simpleMessage("Create Account"),
+    "validateConfirmPassword": MessageLookupByLibrary.simpleMessage(
+      "Passwords do not match",
+    ),
+    "validateEmail": MessageLookupByLibrary.simpleMessage(
+      "Enter a valid email contain @",
+    ),
+    "validateFullName": MessageLookupByLibrary.simpleMessage(
+      "First letter must be uppercase",
+    ),
+    "validatePassword": MessageLookupByLibrary.simpleMessage(
+      "Password must be at least 6 characters",
+    ),
   };
 }

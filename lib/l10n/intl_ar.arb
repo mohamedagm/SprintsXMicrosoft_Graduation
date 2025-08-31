@@ -1,3 +1,39 @@
 {
-    "test":"الداتا متاحه "
+  "boardingTitle": "شوب كرافت",
+  "boardingSubTitle": "تجربة تسوق مميزة لك",
+  "signUp": "إنشاء حساب",
+  "signIn": "تسجيل الدخول",
+
+  "signUpTitle": "إنشاء حساب",
+  "signUpSubTitle": "انضم إلى شوب كرافت الآن",
+  "signUpFullName": "الاسم الكامل",
+  "signUpConfirmPassword": "تأكيد كلمة المرور",
+
+  "authEmail": "البريد الإلكتروني",
+  "authPassword": "كلمة المرور",
+    
+  "hintEmail": "أدخل بريدك الإلكتروني",
+  "hintPassword": "أدخل كلمة المرور",
+  "hintFullName": "أدخل اسمك الكامل",
+  "hintConfirmPassword": "أعد إدخال كلمة المرور",
+
+  "requiredEmail": "البريد الإلكتروني مطلوب",
+  "requiredPassword": "كلمة المرور مطلوبة",
+  "requiredFullName": "الاسم الكامل مطلوب",
+  "requiredConfirmPassword": "يرجى تأكيد كلمة المرور",
+
+  "validateEmail": "أدخل بريداً صالحاً يحتوي على @",
+  "validatePassword": "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل",
+  "validateFullName": "يجب أن يبدأ الاسم بحرف كبير",
+  "validateConfirmPassword": "كلمتا المرور غير متطابقتين",
+
+  "signInTitle": "مرحباً بعودتك",
+  "signInSubTitle": "سجل الدخول إلى شوب كرافت",
+  "dialogTitle": "تم بنجاح!",
+  "gialogBody": "تم إنشاء الحساب بنجاح",
+  "gialogColse": "إغلاق",
+
+  "homeTitle": "منتجاتنا",
+  "homeFeaturedProduct": "المنتجات المميزة",
+  "itemAdded": "تمت إضافة المنتج إلى السلة"
 }

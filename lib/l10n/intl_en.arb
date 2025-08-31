@@ -1,3 +1,39 @@
 {
-    "test":"data is available"
+    "boardingTitle":"ShopCraft",
+    "boardingSubTitle" : "Your Premium Shopping Experience",
+    "signUp":"Sign Up",
+    "signIn":"Sign In",
+
+    "signUpTitle":"Create Account",
+    "signUpSubTitle":"Join ShopCraft today",
+    "signUpFullName":"Full Name",
+    "signUpConfirmPassword":"Confirm Password",
+
+    "authEmail":"Email",
+    "authPassword":"Password",
+    
+    "hintEmail":"Enter your email",
+    "hintPassword":"Enter your Password",
+    "hintFullName":"Enter your full name",
+    "hintConfirmPassword":"Confirm your password",
+
+    "requiredEmail":"Email is required",
+    "requiredPassword":"Password is required",
+    "requiredFullName":"Full Name is required",
+    "requiredConfirmPassword":"Please confirm your password",
+
+    "validateEmail":"Enter a valid email contain @",
+    "validatePassword":"Password must be at least 6 characters",
+    "validateFullName":"First letter must be uppercase",
+    "validateConfirmPassword":"Passwords do not match",
+
+    "signInTitle":"Welcome Back",
+    "signInSubTitle":"Sign in to ShopCraft",
+    "dialogTitle":"Success!",
+    "gialogBody":"Account created successfully",
+    "gialogColse":"Close",
+
+    "homeTitle":"Our Products",
+    "homeFeaturedProduct":"Featured Products",
+    "itemAdded":"Item added to the cart"
 }

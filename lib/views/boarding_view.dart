@@ -10,7 +10,7 @@ class BoardingView extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Text(S.current.test),
+            Text(S.current.boardingSubTitle),
             ElevatedButton(
               onPressed: () {
                 S.load(Locale('ar'));
