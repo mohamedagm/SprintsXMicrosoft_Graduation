@@ -28,11 +28,14 @@ class MessageLookup extends MessageLookupByLibrary {
       "Your Premium Shopping Experience",
     ),
     "boardingTitle": MessageLookupByLibrary.simpleMessage("ShopCraft"),
-    "dialogTitle": MessageLookupByLibrary.simpleMessage("Success!"),
-    "gialogBody": MessageLookupByLibrary.simpleMessage(
+    "dialogBody": MessageLookupByLibrary.simpleMessage(
       "Account created successfully",
     ),
-    "gialogColse": MessageLookupByLibrary.simpleMessage("Close"),
+    "dialogBody2": MessageLookupByLibrary.simpleMessage(
+      "Account logined successfully",
+    ),
+    "dialogColse": MessageLookupByLibrary.simpleMessage("Close"),
+    "dialogTitle": MessageLookupByLibrary.simpleMessage("Success!"),
     "hintConfirmPassword": MessageLookupByLibrary.simpleMessage(
       "Confirm your password",
     ),
@@ -74,7 +77,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Passwords do not match",
     ),
     "validateEmail": MessageLookupByLibrary.simpleMessage(
-      "Enter a valid email contain @",
+      "Enter a valid email with @ formal",
     ),
     "validateFullName": MessageLookupByLibrary.simpleMessage(
       "First letter must be uppercase",

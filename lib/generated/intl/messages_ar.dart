@@ -28,9 +28,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "تجربة تسوق مميزة لك",
     ),
     "boardingTitle": MessageLookupByLibrary.simpleMessage("شوب كرافت"),
+    "dialogBody2": MessageLookupByLibrary.simpleMessage(
+      "تم تسجيل الدخول بنجاح",
+    ),
     "dialogTitle": MessageLookupByLibrary.simpleMessage("تم بنجاح!"),
-    "gialogBody": MessageLookupByLibrary.simpleMessage("تم إنشاء الحساب بنجاح"),
-    "gialogColse": MessageLookupByLibrary.simpleMessage("إغلاق"),
     "hintConfirmPassword": MessageLookupByLibrary.simpleMessage(
       "أعد إدخال كلمة المرور",
     ),
@@ -74,7 +75,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "كلمتا المرور غير متطابقتين",
     ),
     "validateEmail": MessageLookupByLibrary.simpleMessage(
-      "أدخل بريداً صالحاً يحتوي على @",
+      "أدخل بريداً صالحاً يحتوي على @gmail",
     ),
     "validateFullName": MessageLookupByLibrary.simpleMessage(
       "يجب أن يبدأ الاسم بحرف كبير",

@@ -209,10 +209,10 @@ class S {
     );
   }
 
-  /// `Enter a valid email contain @`
+  /// `Enter a valid email with @ formal`
   String get validateEmail {
     return Intl.message(
-      'Enter a valid email contain @',
+      'Enter a valid email with @ formal',
       name: 'validateEmail',
       desc: '',
       args: [],
@@ -275,18 +275,28 @@ class S {
   }
 
   /// `Account created successfully`
-  String get gialogBody {
+  String get dialogBody {
     return Intl.message(
       'Account created successfully',
-      name: 'gialogBody',
+      name: 'dialogBody',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Account logined successfully`
+  String get dialogBody2 {
+    return Intl.message(
+      'Account logined successfully',
+      name: 'dialogBody2',
       desc: '',
       args: [],
     );
   }
 
   /// `Close`
-  String get gialogColse {
-    return Intl.message('Close', name: 'gialogColse', desc: '', args: []);
+  String get dialogColse {
+    return Intl.message('Close', name: 'dialogColse', desc: '', args: []);
   }
 
   /// `Our Products`

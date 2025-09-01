@@ -22,7 +22,7 @@
   "requiredFullName": "الاسم الكامل مطلوب",
   "requiredConfirmPassword": "يرجى تأكيد كلمة المرور",
 
-  "validateEmail": "أدخل بريداً صالحاً يحتوي على @",
+  "validateEmail": "أدخل بريداً صالحاً يحتوي على @gmail",
   "validatePassword": "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل",
   "validateFullName": "يجب أن يبدأ الاسم بحرف كبير",
   "validateConfirmPassword": "كلمتا المرور غير متطابقتين",
@@ -31,6 +31,7 @@
   "signInSubTitle": "سجل الدخول إلى شوب كرافت",
   "dialogTitle": "تم بنجاح!",
   "gialogBody": "تم إنشاء الحساب بنجاح",
+  "dialogBody2":"تم تسجيل الدخول بنجاح",
   "gialogColse": "إغلاق",
 
   "homeTitle": "منتجاتنا",

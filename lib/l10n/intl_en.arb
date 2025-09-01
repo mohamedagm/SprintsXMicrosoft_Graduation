@@ -22,7 +22,7 @@
     "requiredFullName":"Full Name is required",
     "requiredConfirmPassword":"Please confirm your password",
 
-    "validateEmail":"Enter a valid email contain @",
+    "validateEmail":"Enter a valid email with @ formal",
     "validatePassword":"Password must be at least 6 characters",
     "validateFullName":"First letter must be uppercase",
     "validateConfirmPassword":"Passwords do not match",
@@ -30,8 +30,9 @@
     "signInTitle":"Welcome Back",
     "signInSubTitle":"Sign in to ShopCraft",
     "dialogTitle":"Success!",
-    "gialogBody":"Account created successfully",
-    "gialogColse":"Close",
+    "dialogBody":"Account created successfully",
+    "dialogBody2":"Account logined successfully",
+    "dialogColse":"Close",
 
     "homeTitle":"Our Products",
     "homeFeaturedProduct":"Featured Products",
