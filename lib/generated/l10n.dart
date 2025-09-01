@@ -314,6 +314,66 @@ class S {
     );
   }
 
+  /// `Shop Our Collection`
+  String get homeCollection {
+    return Intl.message(
+      'Shop Our Collection',
+      name: 'homeCollection',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Headphone 2025`
+  String get productname {
+    return Intl.message(
+      'Headphone 2025',
+      name: 'productname',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `$25`
+  String get productprice {
+    return Intl.message('\$25', name: 'productprice', desc: '', args: []);
+  }
+
+  /// `50% Off Electronics`
+  String get offertitle {
+    return Intl.message(
+      '50% Off Electronics',
+      name: 'offertitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Limited time offer on all tech gadgets`
+  String get offersubtitle {
+    return Intl.message(
+      'Limited time offer on all tech gadgets',
+      name: 'offersubtitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `50% OFF`
+  String get offerpercent {
+    return Intl.message('50% OFF', name: 'offerpercent', desc: '', args: []);
+  }
+
+  /// `Hot Offers 🔥`
+  String get homeHotOffers {
+    return Intl.message(
+      'Hot Offers 🔥',
+      name: 'homeHotOffers',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Item added to the cart`
   String get itemAdded {
     return Intl.message(

@@ -38,13 +38,24 @@ class MessageLookup extends MessageLookupByLibrary {
     "hintEmail": MessageLookupByLibrary.simpleMessage("أدخل بريدك الإلكتروني"),
     "hintFullName": MessageLookupByLibrary.simpleMessage("أدخل اسمك الكامل"),
     "hintPassword": MessageLookupByLibrary.simpleMessage("أدخل كلمة المرور"),
+    "homeCollection": MessageLookupByLibrary.simpleMessage("تسوق منتجاتنا"),
     "homeFeaturedProduct": MessageLookupByLibrary.simpleMessage(
       "المنتجات المميزة",
     ),
+    "homeHotOffers": MessageLookupByLibrary.simpleMessage("العروض الساخنة 🔥"),
     "homeTitle": MessageLookupByLibrary.simpleMessage("منتجاتنا"),
     "itemAdded": MessageLookupByLibrary.simpleMessage(
       "تمت إضافة المنتج إلى السلة",
     ),
+    "offerpercent": MessageLookupByLibrary.simpleMessage("50% OFF"),
+    "offersubtitle": MessageLookupByLibrary.simpleMessage(
+      "فقط لفترة محدودة علي الكل",
+    ),
+    "offertitle": MessageLookupByLibrary.simpleMessage(
+      "خصم 50% علي الالكترونيات",
+    ),
+    "productname": MessageLookupByLibrary.simpleMessage("سماعة 2025"),
+    "productprice": MessageLookupByLibrary.simpleMessage("\$25"),
     "requiredConfirmPassword": MessageLookupByLibrary.simpleMessage(
       "يرجى تأكيد كلمة المرور",
     ),

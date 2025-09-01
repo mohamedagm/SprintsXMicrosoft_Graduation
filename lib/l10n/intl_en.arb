@@ -36,5 +36,12 @@
 
     "homeTitle":"Our Products",
     "homeFeaturedProduct":"Featured Products",
+    "homeCollection":"Shop Our Collection",
+    "productname":"Headphone 2025",
+    "productprice":"$25",
+    "offertitle":"50% Off Electronics",
+    "offersubtitle":"Limited time offer on all tech gadgets",
+    "offerpercent":"50% OFF",
+    "homeHotOffers":"Hot Offers 🔥",
     "itemAdded":"Item added to the cart"
 }

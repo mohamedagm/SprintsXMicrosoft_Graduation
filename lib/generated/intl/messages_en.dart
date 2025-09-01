@@ -44,11 +44,22 @@ class MessageLookup extends MessageLookupByLibrary {
       "Enter your full name",
     ),
     "hintPassword": MessageLookupByLibrary.simpleMessage("Enter your Password"),
+    "homeCollection": MessageLookupByLibrary.simpleMessage(
+      "Shop Our Collection",
+    ),
     "homeFeaturedProduct": MessageLookupByLibrary.simpleMessage(
       "Featured Products",
     ),
+    "homeHotOffers": MessageLookupByLibrary.simpleMessage("Hot Offers 🔥"),
     "homeTitle": MessageLookupByLibrary.simpleMessage("Our Products"),
     "itemAdded": MessageLookupByLibrary.simpleMessage("Item added to the cart"),
+    "offerpercent": MessageLookupByLibrary.simpleMessage("50% OFF"),
+    "offersubtitle": MessageLookupByLibrary.simpleMessage(
+      "Limited time offer on all tech gadgets",
+    ),
+    "offertitle": MessageLookupByLibrary.simpleMessage("50% Off Electronics"),
+    "productname": MessageLookupByLibrary.simpleMessage("Headphone 2025"),
+    "productprice": MessageLookupByLibrary.simpleMessage("\$25"),
     "requiredConfirmPassword": MessageLookupByLibrary.simpleMessage(
       "Please confirm your password",
     ),
