@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:s_m_shop/generated/l10n.dart';
+import 'package:s_m_shop/widgets/custom_elevated_button.dart';
 
 class BoardingView extends StatelessWidget {
   const BoardingView({super.key});
@@ -7,13 +8,15 @@ class BoardingView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.deepPurpleAccent,
       appBar: AppBar(
+        backgroundColor: Colors.deepPurpleAccent,
         title: Text(
           S.current.boardingTitle,
           style: TextStyle(
-            fontSize: 28,
+            fontSize: 35,
             fontWeight: FontWeight.bold,
-            color: Colors.purple,
+            color: Colors.white,
           ),
         ),
         centerTitle: true,
@@ -30,7 +33,7 @@ class BoardingView extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 22,
                   fontWeight: FontWeight.bold,
-                  color: Colors.deepPurple,
+                  color: Colors.white,
                 ),
               ),
               const SizedBox(height: 25),
@@ -59,63 +62,31 @@ class BoardingView extends StatelessWidget {
                 ],
               ),
               const SizedBox(height: 25),
-              SizedBox(
+              CustomElevatedButton(
+                data: S.current.signUp,
                 width: 200,
-                child: ElevatedButton(
-                  onPressed: () {
-                    // Navigate to sign-up screen
-                    // Navigator.push(
-                    //   context,
-                    //   MaterialPageRoute(
-                    //     builder: (context) => const SignUpView(),
-                    //   ),
-                    // );
-                  },
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.purple,
-                    padding: const EdgeInsets.symmetric(vertical: 15),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(25),
-                    ),
-                  ),
-                  child: Text(
-                    S.current.signUp,
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
-                    ),
-                  ),
-                ),
+                onPressed: () {
+                  // Navigate to sign-up screen
+                  // Navigator.push(
+                  //   context,
+                  //   MaterialPageRoute(
+                  //     builder: (context) => const SignUpView(),
+                  //   ),
+                  // );
+                },
               ),
-              SizedBox(
+              CustomElevatedButton(
+                data: S.current.signIn,
                 width: 200,
-                child: OutlinedButton(
-                  onPressed: () {
-                    // Navigate to sign-in screen
-                    // Navigator.push(
-                    //   context,
-                    //   MaterialPageRoute(
-                    //     builder: (context) => const SignInView(),
-                    //   ),
-                    // );
-                  },
-                  style: OutlinedButton.styleFrom(
-                    padding: const EdgeInsets.symmetric(vertical: 15),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(25),
-                    ),
-                    side: const BorderSide(color: Colors.purple),
-                  ),
-                  child: Text(
-                    S.current.signIn,
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.purple,
-                    ),
-                  ),
-                ),
+                onPressed: () {
+                  // Navigate to sign-up screen
+                  // Navigator.push(
+                  //   context,
+                  //   MaterialPageRoute(
+                  //     builder: (context) => const SignInView(),
+                  //   ),
+                  // );
+                },
               ),
             ],
           ),
