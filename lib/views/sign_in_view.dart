@@ -65,6 +65,7 @@ class _SignInViewState extends State<SignInView> {
                     keyboardType: TextInputType.emailAddress,
                   ),
                   CustomField(
+                    obscureText: true,
                     prefixIcon: Icon(Icons.lock, color: Colors.white),
                     hintText: S.current.hintPassword,
                     controller: passwordController,

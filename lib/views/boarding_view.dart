@@ -34,7 +34,7 @@ class BoardingView extends StatelessWidget {
               Text(
                 S.current.boardingSubTitle,
                 style: TextStyle(
-                  fontSize: 22,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),

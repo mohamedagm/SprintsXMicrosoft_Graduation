@@ -82,6 +82,7 @@ class _SignUpViewState extends State<SignUpView> {
                     keyboardType: TextInputType.emailAddress,
                   ),
                   CustomField(
+                    obscureText: true,
                     prefixIcon: Icon(Icons.lock, color: Colors.white),
                     hintText: S.current.hintPassword,
                     controller: passwordController,
@@ -97,6 +98,7 @@ class _SignUpViewState extends State<SignUpView> {
                     keyboardType: TextInputType.visiblePassword,
                   ),
                   CustomField(
+                    obscureText: true,
                     prefixIcon: Icon(Icons.lock, color: Colors.white),
                     hintText: S.current.hintConfirmPassword,
                     controller: confiromPassController,
