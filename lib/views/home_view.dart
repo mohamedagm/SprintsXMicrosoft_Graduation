@@ -45,7 +45,7 @@ class _HomeViewState extends State<HomeView> {
                 S.current.homeHotOffers,
                 style: TextStyle(fontSize: 30, fontWeight: FontWeight.w600),
               ),
-              HotOffers(models: promotions),
+              HotOffers(models: promotion),
             ],
           ),
         ),

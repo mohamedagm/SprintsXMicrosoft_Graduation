@@ -54,7 +54,7 @@ final List<OfferXCollectionModel> collection = [
   ),
 ];
 
-final List<OfferXCollectionModel> promotions = [
+final List<OfferXCollectionModel> promotion = [
   OfferXCollectionModel(
     title: "50% Off Electronics",
     subtitle: "Limited time offer on all tech gadgets",
@@ -63,7 +63,7 @@ final List<OfferXCollectionModel> promotions = [
   OfferXCollectionModel(
     title: "Free Shipping Weekend",
     subtitle: "No delivery charges on orders above \$50",
-    badgeText: "FREE SHIP",
+    badgeText: "FREE",
   ),
   OfferXCollectionModel(
     title: "Buy 2 Get 1 Free",

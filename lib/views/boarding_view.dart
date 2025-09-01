@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:s_m_shop/func/navigate.dart';
 import 'package:s_m_shop/generated/l10n.dart';
 import 'package:s_m_shop/views/sign_in_view.dart';
 import 'package:s_m_shop/views/sign_up_view.dart';
@@ -68,20 +69,14 @@ class BoardingView extends StatelessWidget {
                 data: S.current.signUp,
                 width: 200,
                 onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => const SignUpView()),
-                  );
+                  fadeNavigate(context, const SignUpView());
                 },
               ),
               CustomElevatedButton(
                 data: S.current.signIn,
                 width: 200,
                 onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => const SignInView()),
-                  );
+                  fadeNavigate(context, const SignInView());
                 },
               ),
             ],

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:s_m_shop/func/custom_dialog.dart';
+import 'package:s_m_shop/func/navigate.dart';
 import 'package:s_m_shop/generated/l10n.dart';
 import 'package:s_m_shop/views/home_view.dart';
 import 'package:s_m_shop/widgets/custom_elevated_button.dart';
@@ -82,6 +84,7 @@ class _SignInViewState extends State<SignInView> {
                     data: S.current.signIn,
                     onPressed: () {
                       if (formKey.currentState!.validate()) {
+                        customDialog(context,S.current.dialogBody2);
                         showDialog(
                           context: context,
                           builder: (context) {
@@ -103,13 +106,7 @@ class _SignInViewState extends State<SignInView> {
                                   child: ElevatedButton(
                                     onPressed: () {
                                       Navigator.of(context).pop();
-                                      Navigator.push(
-                                        context,
-                                        MaterialPageRoute(
-                                          builder:
-                                              (context) => const HomeView(),
-                                        ),
-                                      );
+                                      fadeNavigate(context, const HomeView());
                                     },
                                     child: Text(S.current.dialogColse),
                                   ),
